@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DREAM TEAM | Official Portfolio</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+<style>
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:black;
+color:white;
+scroll-behavior:smooth;
+}
+
+canvas{
+position:fixed;
+top:0;
+left:0;
+z-index:-1;
+}
+
+/* NAVBAR */
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:rgba(0,0,0,0.9);
+padding:10px 0;
+text-align:center;
+z-index:1000;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{color:#ff0055;}
+
+section{
+padding:100px 40px;
+max-width:1100px;
+margin:auto;
+}
+
+h1,h2{
+color:#ff0055;
+}
+
+ul{line-height:1.8;}
+
+a{color:#00ffff;text-decoration:none;}
+
+/* FORM */
+input,textarea{
+width:100%;
+padding:12px;
+margin-bottom:15px;
+border:none;
+border-radius:8px;
+}
+
+button{
+padding:12px 20px;
+background:#ff0055;
+color:white;
+border:none;
+border-radius:8px;
+font-weight:bold;
+cursor:pointer;
+}
+
+button:hover{background:#ff3366;}
+
+/* WhatsApp */
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 18px;
+border-radius:50%;
+font-size:22px;
+text-decoration:none;
+box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#styles">Dance Styles</a>
+<a href="#events">Events</a>
+<a href="#achievements">Achievements</a>
+<a href="#videos">Videos</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+<h1>DREAM TEAM</h1>
+<p><b>Professional Dance Crew | Live Performances | Events | Competitions</b></p>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+<h2>ABOUT DREAM TEAM</h2>
+<p>
+DREAM TEAM is a high-energy professional dance crew delivering powerful, synchronized, and crowd-engaging performances.
+We specialize in creating unforgettable stage experiences for corporate events, weddings, college festivals, cultural programs, competitions, and private shows.
+We don’t just perform — we create experiences.
+</p>
+</section>
+
+<!-- STYLES -->
+<section id="styles">
+<h2>DANCE STYLES</h2>
+<ul>
+<li>Bollywood</li>
+<li>Hip-Hop</li>
+<li>Commercial</li>
+<li>Contemporary</li>
+<li>Freestyle</li>
+<li>Wedding Choreography</li>
+<li>Fusion & Theme-Based Performances</li>
+</ul>
+</section>
+
+<!-- EVENTS -->
+<section id="events">
+<h2>EVENTS WE PERFORM AT</h2>
+<ul>
+<li>Corporate Events</li>
+<li>Award Shows</li>
+<li>Product Launches</li>
+<li>Wedding Sangeet & Receptions</li>
+<li>College Festivals</li>
+<li>Cultural Programs</li>
+<li>Private Parties</li>
+<li>Competition Shows</li>
+</ul>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements">
+<h2>EXPERIENCE & ACHIEVEMENTS</h2>
+<ul>
+<li>Performed in front of REMO D’SOUZA</li>
+<li>Performed in front of DHARMESH YELLEDE</li>
+<li>Performed in front of PUNEET J. PATHAK</li>
+<li>Performed in front of SAROJ KHAN</li>
+<li>Performed in INDIA’S GOT TALENT - Season 9</li>
+<li>In front of SHILPA SHETTY</li>
+<li>In front of BADSHAH</li>
+<li>In front of KIRON KHER</li>
+<li>Won more than 97 National Level Competitions</li>
+<li>Multiple Live Stage Performances</li>
+<li>Strong Crowd Engagement</li>
+<li>Professional Team Coordination</li>
+<li>High-Energy Group Choreography</li>
+<li>Experience Performing at Public & Private Events</li>
+</ul>
+</section>
+
+<!-- VIDEOS -->
+<section id="videos">
+<h2>PERFORMANCE VIDEOS</h2>
+<ul>
+<li><a href="https://youtu.be/3ttWs3pcr9o" target="_blank">Performance Video 1</a></li>
+<li><a href="https://youtu.be/upxrLgNoOiQ" target="_blank">Performance Video 2</a></li>
+<li><a href="https://youtu.be/Gbkl4D_ez-M" target="_blank">Performance Video 3</a></li>
+<li><a href="https://youtu.be/NE7zddqZLIQ" target="_blank">Performance Video 4</a></li>
+<li><a href="https://youtu.be/E3OyTrh9y8k" target="_blank">Performance Video 5</a></li>
+<li><a href="https://youtu.be/2gFTflZJmb8" target="_blank">Performance Video 6</a></li>
+<li><a href="https://drive.google.com/file/d/1bpLmYelGUrYbsM2gt2zFjM_csqhAUHRf/view" target="_blank">Performance Video 7</a></li>
+<li><a href="https://drive.google.com/file/d/1pBQFpG75j0mUCseB1zYQiOrNTqiK53OY/view" target="_blank">Performance Video 8</a></li>
+</ul>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>SEND US A QUERY</h2>
+<form action="https://formsubmit.co/shoryakumar28@gmail.com" method="POST">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_subject" value="New Website Query - DREAM TEAM">
+<input type="text" name="Name" placeholder="Your Name" required>
+<input type="email" name="Email" placeholder="Your Email" required>
+<textarea name="Message" rows="5" placeholder="Your Message..." required></textarea>
+<button type="submit">Send Message</button>
+</form>
+</section>
+
+<!-- WhatsApp -->
+<a class="whatsapp" href="https://wa.me/918410733947" target="_blank">💬</a>
+
+<script>
+// 3D Background
+const scene=new THREE.Scene();
+const camera=new THREE.PerspectiveCamera(75,window.innerWidth/window.innerHeight,0.1,1000);
+const renderer=new THREE.WebGLRenderer({alpha:true});
+renderer.setSize(window.innerWidth,window.innerHeight);
+document.body.appendChild(renderer.domElement);
+
+const geometry=new THREE.TorusKnotGeometry(3,0.6,100,16);
+const material=new THREE.MeshStandardMaterial({color:0xff0055,wireframe:true});
+const mesh=new THREE.Mesh(geometry,material);
+scene.add(mesh);
+
+const light=new THREE.PointLight(0xffffff,2);
+light.position.set(5,5,5);
+scene.add(light);
+
+camera.position.z=8;
+
+function animate(){
+requestAnimationFrame(animate);
+mesh.rotation.x+=0.005;
+mesh.rotation.y+=0.005;
+renderer.render(scene,camera);
+}
+animate();
+</script>
+
+</body>
+</html>
